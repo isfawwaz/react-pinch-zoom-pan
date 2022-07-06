@@ -114,7 +114,9 @@ export const tryCancelEvent = event => {
         return false;
     }
 
-    event.preventDefault();
+    if (event.defaultPrevented)
+        event.preventDefault();
+
     return true;
 }
 
