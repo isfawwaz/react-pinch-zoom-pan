@@ -1,32 +1,32 @@
-# react-responsive-pinch-zoom-pan
+# react-image-pinch-zoom (formerly react-responsive-pinch-zoom-pan)
 
-A React component that adds pinch-zoom and pan capability to an `img` element. Both mobile and desktop browsers are supported. In desktop mode, you zoom with the mouse scrollwheel, and pan by dragging.
+A extend of react component from this [library](https://www.npmjs.com/package/react-image-pinch-zoom) that adds pinch-zoom and pan capability to an `img` element. Both mobile and desktop browsers are supported. In desktop mode, you zoom with the mouse scrollwheel, and pan by dragging.
 
 On render, the zoom and pan values are applied using CSS transforms. 
 
 ## Install
 
-`npm install react-responsive-pinch-zoom-pan --save`
+`npm install react-image-pinch-zoom --save`
 
 ## Try it out
 
 ### Online
 
-[Demo](https://bradstiff.github.io/react-responsive-pinch-zoom-pan/)
+[Demo](https://isfawwaz.github.io/react-pinch-zoom-pan/)
 
 ### Local
 
-1. `git clone https://github.com/bradstiff/react-responsive-pinch-zoom-pan.git`
-2. `cd react-responsive-pinch-zoom-pan`
+1. `git clone https://github.com/isfawwaz/react-pinch-zoom-pan`
+2. `cd react-pinch-zoom-pan`
 3. `npm install`
 4. `npm start`
 5. Browse to http://localhost:3001
-
+`
 ## Usage
 
 ```javascript
 import React from "react";
-import PinchZoomPan from "react-responsive-pinch-zoom-pan";
+import PinchZoomPan from "react-image-pinch-zoom";
 
 const App = () => {
     return (
